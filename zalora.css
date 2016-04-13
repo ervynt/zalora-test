@@ -1,0 +1,176 @@
+body {
+    font-size: 12px;
+    line-height: 1.6;
+    font-family: "Apercu",Gill Sans MT,Gill Sans,Arial,sans-serif;
+    letter-spacing: .05em;
+    color: #000;
+    width: 996px;
+    margin-left: auto;
+    margin-right: auto;
+}
+div {
+    display:block;
+}
+
+.hovers {
+    opacity: 1;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+}
+
+ul {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 0;
+}
+
+li p {
+    display: inline-block;
+}
+
+li p:hover {
+    opacity: 0.8;
+}
+
+#explore_Topshop{
+    display: block;
+    position: relative;
+}
+#explore_Topshop:hover {
+    opacity: 0.8;
+}
+
+.cms-how-to-style {
+    width: 996px;
+    padding: 15px 0;
+    background-color: #f2f2f2;
+}
+.cms-underline-copy {
+    display: inline-block;
+    padding-bottom: 1px;
+    border-bottom: 1px solid #000000;
+}
+
+.cms-row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.cms-full {
+    width:100%;
+}
+
+.cms-full, .cms-half {
+    position: relative;
+    min-height: 1px;
+    padding-left: 0;
+    padding-right: 0;
+    float: left;
+}
+
+.cms-mtop {
+    margin-top: 16px;
+}
+
+.txtCenter {
+    text-align: center;
+}
+
+.mbxl, .mvxl {
+    margin-bottom: 40px;
+}
+
+.mtxl, .mvxl {
+    margin-top: 40px;
+}
+
+.cms-hover-content {
+    position: absolute;
+    display: table;
+    left: 0;
+    opacity: 0;
+    top: 40px;
+    width: 996px;
+    height: 500px;
+    background: rgba(0,0,0,.8);
+    font-size: 18px;
+}
+
+.cms-hover-content span {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.cms-animate {
+    transition: all .3s ease-out;
+}
+
+.cms-hover-cta{
+    display: inline-block;
+    padding: 12px 15px;
+    margin: 0 auto;
+    background: 0 0;
+    color: #fff;
+    border: 2px solid #fff;
+    font-size:12px;
+    line-height: 11px;
+    letter-spacing: 2px;
+}
+
+.lfloat {
+    float:left;
+}
+
+.rfloat {
+    float:right;
+}
+
+.cms-jean-guide-grid {
+    width: 490px;
+    height: 640px;
+}
+
+.cms-jean-desc {
+    padding: 0 20px;
+    width: 197px;
+    height: 316px;
+    background: #f2f2f2;
+    display: table-cell;
+    vertical-align: middle;
+    text-align:center;
+}
+
+.cms-hp-b13-headline {
+    font-size: 14px;
+    line-height: 1.6em;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.bigassbutton {
+    width: 100%;
+    padding: 24px;
+    font-size: 16px;
+    background-color: transparent;
+    color: #000000;
+    transition: background-color .3s, color .2s;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    display: inline-block;
+    line-height: 10px;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    letter-spacing: 1px;
+    background-image: none;
+    -webkit-user-select: none;
+}
